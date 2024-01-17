@@ -1,3 +1,8 @@
+var client = contentful.createClient({
+  space: "fh5ky6fggdxe",
+  accessToken: "PSSCB_IJZ93w6vBkjQzibgT6Dze_ZDFa2nTx5p2ZvPQ",
+});
+
 //variables
 
 const cartBtn = document.querySelector(".cart-btn");
